@@ -8,13 +8,15 @@ extern "C" {
         return 0;
     }
 
-    __declspec(dllexport) bool Init(int IntegrationVersion, BEClient::GameData* gameData , BEClient::BEData* beData) { //gameData (IN), beData (OUT)
+    __declspec(dllexport) bool Init(int IntegrationVersion, BEClient::GameData* gameData, BEClient::BEData* beData) { //gameData (IN), beData (OUT)
         if (!GetConsoleWindow()) {
             AllocConsole();
             FILE* filePointer{};
             freopen_s(&filePointer, "CONOUT$", "w", stdout);
             std::cout << gameData->GameVersion << '\n';
         }
+
+        BEFunctions::GameData = gameData;
 
         beData->Exit = BEFunctions::BEData::Exit;
         beData->Run = BEFunctions::BEData::Run;

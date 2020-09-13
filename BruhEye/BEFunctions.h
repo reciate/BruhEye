@@ -1,6 +1,9 @@
 #pragma once
+#include "BEStructs.h"
+#include "BEPacketHandler.h"
 
 namespace BEFunctions {
+	extern BEClient::GameData* GameData;
 	namespace BEData {
 		bool Exit();
 		void Run();

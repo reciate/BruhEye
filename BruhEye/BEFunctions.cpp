@@ -1,6 +1,8 @@
 #include "BEFunctions.h"
 
 namespace BEFunctions {
+	BEClient::GameData* GameData{};
+
 	namespace BEData {
 		bool Exit() {
 			return true;
@@ -15,7 +17,7 @@ namespace BEFunctions {
 		}
 
 		void ReceivedPacket(int* Packet, int Length) {
-
+			
 		}
 
 		void OnReceiveAuthTicket(int* Ticket, int TicketLength) {
