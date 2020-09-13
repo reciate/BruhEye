@@ -1,7 +1,7 @@
 #include "BEFunctions.h"
 
 namespace BEFunctions {
-	BEClient::GameData* GameData{};
+	BEClient::GameData GameData{};
 
 	namespace BEData {
 		bool Exit() {

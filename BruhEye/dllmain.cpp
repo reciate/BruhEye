@@ -16,7 +16,7 @@ extern "C" {
             std::cout << gameData->GameVersion << '\n';
         }
 
-        BEFunctions::GameData = gameData;
+        BEFunctions::GameData = *gameData;
 
         beData->Exit = BEFunctions::BEData::Exit;
         beData->Run = BEFunctions::BEData::Run;
