@@ -17,7 +17,7 @@ namespace BEFunctions {
 		}
 
 		void ReceivedPacket(int* Packet, int Length) {
-			
+			BEPacketHandler::onReceivedPacket(Packet, Length);
 		}
 
 		void OnReceiveAuthTicket(int* Ticket, int TicketLength) {

@@ -11,13 +11,22 @@
     <Filter Include="BattlEye\Custom">
       <UniqueIdentifier>{6c0e57e1-3f77-4ab0-96ea-a8fdfdf82c1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BattlEye\Custom\BEFunctions">
+      <UniqueIdentifier>{0f0d6420-51c6-419e-8b4b-fb49edf6b544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattlEye\Custom\BEPacketHandler">
+      <UniqueIdentifier>{77e4dcd4-4929-49a5-930d-cd93c3f8cf3c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BEFunctions.cpp">
-      <Filter>BattlEye\Custom</Filter>
+      <Filter>BattlEye\Custom\BEFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="BEPacketHandler.cpp">
+      <Filter>BattlEye\Custom\BEPacketHandler</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -27,8 +36,14 @@
     <ClInclude Include="BEEnums.h">
       <Filter>BattlEye</Filter>
     </ClInclude>
+    <ClInclude Include="BEPacket.h">
+      <Filter>BattlEye</Filter>
+    </ClInclude>
     <ClInclude Include="BEFunctions.h">
-      <Filter>BattlEye\Custom</Filter>
+      <Filter>BattlEye\Custom\BEFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="BEPacketHandler.h">
+      <Filter>BattlEye\Custom\BEPacketHandler</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

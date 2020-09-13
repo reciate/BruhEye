@@ -152,11 +152,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BEFunctions.cpp" />
+    <ClCompile Include="BEPacketHandler.cpp" />
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BEEnums.h" />
     <ClInclude Include="BEFunctions.h" />
+    <ClInclude Include="BEPacket.h" />
+    <ClInclude Include="BEPacketHandler.h" />
     <ClInclude Include="BEStructs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
