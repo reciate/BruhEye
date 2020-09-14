@@ -2,7 +2,7 @@
 
 namespace BEServer {
 	struct Packet {
-		enum class HeaderID{
+		enum class HeaderID: char {
 			Init,
 			Start = 2,
 			Request = 4,
