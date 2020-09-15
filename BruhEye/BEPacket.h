@@ -2,14 +2,15 @@
 
 namespace BEServer {
 	struct Packet {
-		enum class HeaderID: char {
-			Init,
-			Start = 2,
-			Request = 4,
-			Response = 5,
-			Heartbeat = 9
-		} headerID;
-		unsigned char headerSequence;
-		bool isFragmented;
+		struct Header {
+			enum class ID : char {
+				Init,
+				Start = 2,
+				Request = 4,
+				Response = 5,
+				Heartbeat = 9
+			} id;
+			unsigned char sequence;
+		} header;
 	};
 }
