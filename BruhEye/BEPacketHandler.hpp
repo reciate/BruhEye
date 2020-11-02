@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
-#include "BEPacket.h"
-#include "BEFunctions.h"
+#include "BEPacket.hpp"
+#include "BEFunctions.hpp"
 
 namespace BEPacketHandler {
 	void onReceivedPacket(int* packet, int length);

@@ -1,4 +1,4 @@
-#include "BEFunctions.h"
+#include "BEFunctions.hpp"
 
 namespace BEFunctions {
 	BEClient::GameData GameData{};

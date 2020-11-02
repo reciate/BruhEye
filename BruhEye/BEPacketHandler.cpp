@@ -1,4 +1,4 @@
-#include "BEPacketHandler.h"
+#include "BEPacketHandler.hpp"
 
 void handlePacket(BEServer::Packet* packet) {
 	switch (packet->header.id) {

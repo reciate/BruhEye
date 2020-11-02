@@ -156,11 +156,11 @@
     <ClCompile Include="dllmain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BEEnums.h" />
-    <ClInclude Include="BEFunctions.h" />
-    <ClInclude Include="BEPacket.h" />
-    <ClInclude Include="BEPacketHandler.h" />
-    <ClInclude Include="BEStructs.h" />
+    <ClInclude Include="BEEnums.hpp" />
+    <ClInclude Include="BEFunctions.hpp" />
+    <ClInclude Include="BEPacket.hpp" />
+    <ClInclude Include="BEPacketHandler.hpp" />
+    <ClInclude Include="BEStructs.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

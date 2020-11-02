@@ -1,7 +1,7 @@
 #include <Windows.h>
 #include <iostream>
-#include "BEStructs.h"
-#include "BEFunctions.h"
+#include "BEStructs.hpp"
+#include "BEFunctions.hpp"
 
 extern "C" {
     __declspec(dllexport) int GetVer() {

@@ -1,6 +1,6 @@
 #pragma once
-#include "BEStructs.h"
-#include "BEPacketHandler.h"
+#include "BEStructs.hpp"
+#include "BEPacketHandler.hpp"
 
 namespace BEFunctions {
 	extern BEClient::GameData GameData;

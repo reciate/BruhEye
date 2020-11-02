@@ -30,20 +30,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BEStructs.h">
+    <ClInclude Include="BEStructs.hpp">
       <Filter>BattlEye</Filter>
     </ClInclude>
-    <ClInclude Include="BEEnums.h">
+    <ClInclude Include="BEPacket.hpp">
       <Filter>BattlEye</Filter>
     </ClInclude>
-    <ClInclude Include="BEPacket.h">
+    <ClInclude Include="BEEnums.hpp">
       <Filter>BattlEye</Filter>
     </ClInclude>
-    <ClInclude Include="BEFunctions.h">
-      <Filter>BattlEye\Custom\BEFunctions</Filter>
-    </ClInclude>
-    <ClInclude Include="BEPacketHandler.h">
+    <ClInclude Include="BEPacketHandler.hpp">
       <Filter>BattlEye\Custom\BEPacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="BEFunctions.hpp">
+      <Filter>BattlEye\Custom\BEFunctions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
