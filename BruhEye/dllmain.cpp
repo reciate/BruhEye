@@ -32,6 +32,6 @@ extern "C" {
     }
 }
 
-BOOL APIENTRY DllMain(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserved) {
-    return TRUE;
+int __stdcall DllMain(void* hModule, unsigned long ul_reason_for_call, void* lpReserved) {
+    return 1;
 }
