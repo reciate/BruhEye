@@ -1,3 +1,4 @@
+#include <iostream>
 #include "BEPacketHandler.hpp"
 
 void handlePacket(BEServer::Packet* packet) {
